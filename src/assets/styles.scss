@@ -1,0 +1,171 @@
+@import "./colors.scss";
+@import "./common.scss";
+@import "./customScrollbar.scss";
+
+/*------------------------------------------------------------------
+[5. Alignment]
+*/
+/*  Padding Helpers */
+/* Margin Helpers */
+/* Generic Helpers */
+/*------------------------------------------------------------------
+[Alignment End]
+*/
+body {
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+.colorWhite {
+	color: $color-white;
+}
+.colorBlack {
+	color: $color-black;
+}
+.colorBlueGreen {
+	color: $color-blueGreen;
+}
+.colorDarkGray {
+	color: $color-colorDarkGray;
+}
+.colorBlue{
+	color:blue;
+}
+.colorWhiteBG {
+	background-color: $color-white;
+}
+.colorBlackBG {
+	background-color: $color-black;
+}
+.colorBlueGreenBG {
+	background-color: $color-blueGreen !important;
+}
+.colorDarkGrayBG {
+	background-color: $color-colorDarkGrayBG;
+}
+.colorLightBlue {
+	background-color: $color-colorLightBlue;
+}
+h1 {
+	font-size: 30px !important;
+}
+h2 {
+	font-size: 20px !important;
+	font-weight: 600;
+}
+h3 {
+	font-size: 18px !important;
+}
+h4 {
+	font-size: 15px !important;
+}
+h5 {
+	font-size: 12px !important;
+}
+h6 {
+	font: 10px !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+		content: ">" !important;
+}
+.btn-success {
+    color: $color-white;
+    background-color: $color-blueGreen !important;
+}
+.registerBtn{
+	background-color: $color-white !important;
+		color: $color-black !important;
+		font-size: 16px;
+}
+.breadcrumb {
+	background-color:$color-white !important;
+	margin-bottom: 0px !important;
+	padding: 10px 0px;
+}
+.chartjs-size-monitor
+{
+.pie-chart
+{
+	width:200px !important;
+	height: 200px !important;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.breadcrumb {
+		font-size:10px;
+		background-color:$color-white !important;
+	
+	}
+}
+
+.modal-header .close:focus{
+	outline: none;
+}
+// btn-primary:focus
+// {
+//    border-color:none ;
+//    outline: none !important;
+// }
+
+ .btn-primary:focus,  .btn-primary.focus{
+	box-shadow: 0 0 0 0.0rem $color-white !important;
+}
+.btn-primary{
+	border-color: $color-white;
+}
+
+.mainContainer{
+	height: 100vh;
+    overflow-y: scroll;
+}
+
+.custom-shadow {
+	box-shadow: 0 4px 29px 0 rgba(0,0,0,.07);
+}
+.bor-10 {
+	border-radius: 10px;
+}
+.bor-5 {
+	border-radius: 5px;
+
+}
+.decorationNone{
+	text-decoration: none !important;
+}
+.modalMediumSize{
+	.modal-content{
+		width:600px;
+	}
+}
+.custom-header-container {
+	width: 100%;
+	// padding-top: 2vh;
+    // padding-bottom: 2vh;
+    // padding-left: 2vw;
+	// padding-right: 2vw;
+	padding: 1px 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.font-size{
+   font-weight:bolder;
+}
+.font-size-min{
+   font-size:12px;
+}
+.font-size-max{
+	font-size: 14px;
+}
+.font-size-maximum{
+	font-size: 18px;
+}
+.font-weight{
+   font-weight: normal;
+}
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.eliteLoading{
+    position: absolute;
+    z-index: 1111148;
+    background: #ccccccb8;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .loadingContainer{
+        width: 390px;
+        height: 200px;
+        background: #fff;
+        border-radius: 5px;
+        position: relative;
+        .loadingText{
+            position: absolute;
+            top: 170px;
+            width: 100%;
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+}

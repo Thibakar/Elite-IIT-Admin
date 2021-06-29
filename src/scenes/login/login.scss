@@ -1,0 +1,93 @@
+.divoverflow {
+	width: 100%;
+	overflow-x: hidden;
+}
+.verticalhorizontalMiddle {
+	img {
+		height: 52px;
+		width: auto;
+		margin-top: 104px;
+	}
+}
+.colorBlack {
+	color: #212121;
+}
+.login-border-0 {
+	border: 0;
+}
+.custom-Input-Border {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	line-height: 5px;
+	margin-top: 104px;
+}
+.btn-primaryLogin {
+	background-color: rgba(0, 0, 0, 0.87);
+	border-radius: 5px;
+	text-align: center;
+}
+.loginAlignPadding{
+	margin-left:70px;
+	margin-right:70px;
+	text-align:center;
+}
+.account-Padding {
+	padding-left: 0px;
+	padding-top:50px;
+	text-align:center;
+	color: #666666;
+}
+.login-card {
+	b {
+		font-size: 30px;
+	}
+}
+.login-right-container {
+	h6 {
+		font-size: 15px;
+	}
+}
+a:hover{
+	color: rgba(0, 0, 0, 0.87);
+}
+@media only screen and (max-width: 600px) {
+	.login-right-container {
+		height: 400px !important;
+	}
+	.account-Padding {
+		padding: 25px;
+		margin-left: 32px;
+	}
+	.btn-primaryLogin {
+		background-color: rgba(0, 0, 0, 0.87);
+		border-radius: 5px;
+		text-align: center;
+		
+	}
+	.headingAlignCenter {
+		font-size: 15px;
+		margin-top: 10px;
+		text-align: center;
+		color: #9e9e9e;
+	}
+	.logoCenterlogin {
+		padding-top: 1px;
+		padding-bottom: 12px;
+		margin-left: -60px;
+	}
+	.loginAlignPadding{
+		margin-left:70px;
+		margin-right:70px;
+		font-size:10px;
+		text-align:center;
+	}
+
+	
+	.floatingInput label{
+		font-size:15px;
+		
+		
+	}
+	
+}

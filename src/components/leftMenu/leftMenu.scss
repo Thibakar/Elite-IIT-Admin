@@ -1,0 +1,83 @@
+@import "../../assets/colors.scss";
+
+.leftMenu{
+	.leftMenuToggle{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+		margin: 10px 15px;
+		.fa{
+			color: $color-white;
+			font-size: 25px;
+		}
+	}
+	.side-nav{
+		width: 60px;
+		background-color: $color-blueGreen;
+		overflow: hidden;
+		transition: width .2s linear;
+		z-index: 10;
+		.LeftMenuList{
+			list-style: none;
+			padding-inline-start: 0px;
+			.subMenu{
+				height: calc(100vh - 380px);
+				overflow: scroll;
+			}
+			.menuHeader{
+				display: none;
+				color: $color-white;
+				margin-left: 10px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			.menuItem {
+				width: 100%;
+				font-size: 16px;
+				text-transform: capitalize;
+				color: $color-white;
+				height: 40px;
+				display: flex;
+				align-items: center;
+				.menu-content {
+					font-size: 15px;
+					line-height: 30px;
+					display: none;
+				}
+				&:hover {
+					color: $color-lightYellow;
+					background-color: $color-blueGreenLight;
+					cursor: pointer;
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.side-nav.active {
+		width: 260px;
+		.LeftMenuList{
+			.menuHeader{
+				display: block;
+			}
+			.menuItem {
+				.menu-content {
+					display: inline-block;	
+				}
+			}
+		}
+	}
+	div.side-nav.expanded {
+		width: 260px;
+		overflow: hidden;
+	}
+	.menu-icon {
+		display: inline-block;
+		margin: 0 15px;
+		font-size: 15px;
+	}
+	.menu-content {
+		transition: all .2s ease;
+		
+	}
+}

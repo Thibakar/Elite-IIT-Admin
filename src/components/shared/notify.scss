@@ -1,0 +1,20 @@
+.notify{
+    .Toastify__toast-body{
+        color: #575757;
+    }
+    .Toastify__progress-bar--default{
+        background: rgb(209, 209, 209) !important;
+    }
+    
+    .Toastify__progress-bar--default.Success{
+        background: rgba(41, 211, 41, 0.24) !important;
+    }
+    
+    .Toastify__progress-bar--default.Information{
+        background: rgba(57, 133, 188, 0.2) !important;
+    }
+    
+    .Toastify__progress-bar--default.Warning{
+        background: rgba(243, 160, 51, 0.2) !important;
+    }
+}

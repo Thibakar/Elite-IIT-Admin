@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195.488" height="61.456" viewBox="0 0 195.488 61.456">
+  <g id="Group_31007" data-name="Group 31007" transform="translate(-72.512 -25.544)">
+    <g id="Group_29" data-name="Group 29" transform="translate(46.553 -268.194)">
+      <g id="Group_30790" data-name="Group 30790" transform="translate(29.495 294.469)">
+        <path id="Path_24670" data-name="Path 24670" d="M89.131,47.725H68.874V12.55H89.131v6.111h-12.8v7.723H88.241V32.5H76.332v9.07h12.8Zm7.362,0V12.55h7.458V41.566h14.267v6.159Zm27.86,0V12.55h7.459V47.725Zm29.882,0h-7.459V18.758h-9.551V12.55h26.561v6.207h-9.551Zm35.221,0H169.2V12.55h20.258v6.111h-12.8v7.723h11.909V32.5H176.658v9.07h12.8Z" transform="translate(0 -13)" fill="#fff"/>
+        <path id="Path_24672" data-name="Path 24672" d="M36.385,63.638l-1.055-1.055a.887.887,0,0,1-.133-.11L3.739,31.015a.886.886,0,0,1-.215-.347L1.36,28.5a.89.89,0,0,1,0-1.259L24.62,3.985a.89.89,0,0,1,1.259,0l6.477,6.476a.89.89,0,0,1,0,1.258L16.133,27.941,37,48.811,53.478,32.335a.89.89,0,0,1,1.259,0l6.476,6.476a.89.89,0,0,1,0,1.258L37.643,63.638a.89.89,0,0,1-1.258,0Z" transform="translate(-4.474 -4.456)" fill="#b3f151"/>
+        <path id="Path_24673" data-name="Path 24673" d="M36.4,61.474l-.838-.838a.547.547,0,0,1-.107-.083L1.112,26.211a.547.547,0,0,1,0-.773l15.17.473L37.017,46.647,53.493,30.171a.89.89,0,0,1,1.258,0l6.476,6.476a.89.89,0,0,1,0,1.259L37.658,61.475a.89.89,0,0,1-1.259,0Z" transform="translate(-4.488 -2.291)" fill="#fff"/>
+        <path id="Path_24674" data-name="Path 24674" d="M34.8,17.125a.89.89,0,0,1,1.247,0l7.969,7.83a.89.89,0,0,1-.623,1.524H27.452a.89.89,0,0,1-.623-1.525Z" transform="translate(-1.935 -3.145)" fill="#b3f151"/>
+        <text id="The_Learning_App" data-name="The Learning App" transform="translate(68.952 56.725)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">THE LEARNING APP</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,305 @@
+
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+// body {
+//   overflow-x: hidden;
+//   font-family: "Open Sans", sans-serif !important;
+// }
+// .web-font-styling {
+//   font-family: "Open Sans", sans-serif !important;
+// }
+.elite-logo {
+	padding-left: 40px;
+	width:170px;
+}
+.Header {
+	background-color: #146b48;
+	// margin-left:-15px;
+	// margin-right:-15px;
+	.btn1 {
+	text-align: center;
+	padding-top: 2px;
+	background-color: #146b48;
+	.btn3 {
+		margin-left: 20px;
+		color: #000000;
+		font-size: 15px;
+	}
+	.btn4 {
+		margin-left: 20px;
+		font-size: 12px;
+		background-color: #146b48;
+	}
+}
+
+    .btn2 {
+        margin-left: 20px;
+        font-size: 8px;
+        font-weight: bold;
+        padding-top: 4px;
+        text-align: left;
+    }
+}
+.phone-icon {
+	padding-top: 3px;
+}
+
+.nav-2 {
+	background-color: rgb(230, 237, 240);
+}
+.nav-link {
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+
+   .model-btn
+   {
+	 background-color: #146b48;
+	 margin-left:20px;
+	 text-align: center;
+   }
+   .register-size
+   {
+	   text-align:center !important;
+   }
+   .header-border{
+	   border: none !important;
+   }
+   .name-border
+   {
+	   border-top:0px;
+	   border-right:0px;
+	   border-left:0px;
+   }
+   .errorMessage {
+	color: red;
+	z-index: 10;
+}
+.model-btn{
+	background-color: #146b48 !important;
+	color:#fff !important;
+}
+.custom-inputSelect{
+	border-bottom: 1px solid #4285f4 !important;
+	width: 100% !important;
+	border-radius:0px !important;
+	
+}
+.management
+{
+	font-size:10px;
+}
+.ManagementAlign
+{
+	h5
+     {
+		 font-size:15px;
+	 }	
+}
+
+.searchInput
+{
+  display:flex;
+  float: right;
+  border-radius:1px;
+  
+}
+.Header{
+	.searchInput{
+		input{
+			width: 0px;
+			padding: 0px;
+			float:right;
+			border:0px;
+	
+		}
+		&:hover{
+			input{
+				width: 400px;
+				padding: 5px;
+				float:right;
+				border-radius:1px;
+				// margin:0px;
+				border:1px solid #146b48;
+				transition: width 0.5s;
+			}
+		}
+	}
+}
+.SearchBox
+{
+	width:210px;
+	margin-top:10px;
+	margin-right:20px;
+}
+.headerRightAlign{
+	position: absolute;
+	right:50px;
+}
+.cartBackground
+{
+	margin-top: 10px;
+	margin-left: 20px;
+
+	.head-icon {
+		width: 25px;
+		height: auto;
+	}
+	.badge {
+		position: absolute;
+		background-color: #ff8953;
+		border-radius: 50%;
+		vertical-align: top;
+		right: 0px;
+
+	}
+}
+
+.LoginLink{
+    color: #ffff;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+	font-size: 20px;
+	text-decoration: none !important;
+}
+.LoginLink:hover{
+	color: #ffff;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.searchBar{
+	border: 1px solid #146b48;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #042e1d;
+	color: #fff;
+	border-radius: 3px;
+}
+.searchBar:hover{
+	border-radius: 0 3px 3px 0 ;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.nav-link {
+		padding-left: 20px !important;
+		font-size: 10px !important;
+	}
+	.Model_Content{
+		width: 400px;
+	}
+	
+	.modal-content{
+		width: 50% !important;
+	}
+	.elite-logo {
+		text-align: center;
+		
+		padding-left: 0px;
+		width: 125px;
+	}
+	.mr-auto {
+		text-align: center;
+	}
+	.btn1 {
+		margin-left: 20px;
+		margin-top: 10px;
+		padding-top: 2px;
+		background-color: #146b48;
+	}
+	.btn2 {
+		text-align: center;
+	}
+	.btn3 {
+		text-align: center;
+	}
+	.registerBtn {
+		text-align: center;
+		
+	}
+	.header-border{
+		border: none !important;
+	}
+	.register-size
+   {
+	   text-align:center !important;
+   }
+   .verticalhorizontalMiddle b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+	.Model_Content{
+		width: 100%;
+	}
+	
+	.modal-content{
+		width: 45% !important;
+	}
+}
+.profileSection{
+	display: flex;
+	color:#ffff;
+	text-align:center;
+
+	.ManagementAlign{
+		line-height:10px;
+		padding:5px;
+		margin-left:20px;
+		p{
+			font-size: 10px;
+		}
+	}
+	.profileImage{
+		img{
+			width:50px;
+			padding:5px;
+		}
+	}
+}
+.subNavBar{
+	display: flex;
+	justify-content: space-between;
+}
+.navLeftSection{
+	margin-top: 10px;
+	
+}
+.navRightSection{
+	justify-content: right;
+}
+.phoneSection{
+	background-color: #146b48;
+	padding-left: 10px;
+	border:1px solid #fff;
+	border-radius: 5px;
+	color:#fff;
+	text-align: center;
+	i{
+		font-size: 30px;
+		padding-top: 5px;
+	}
+	.phNumber{
+		font-size: 15px;
+	
+	}
+	.freeCounseling{
+		display: block;
+		font-size: 10px;
+		line-height: 0px;
+		padding-top: 10px;
+	}
+}
+
+
+	
+
